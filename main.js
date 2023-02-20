@@ -1,12 +1,8 @@
 let divSprawdz = document.getElementById("sprawdz");
 
-let wynik = 12;
-
 let sprawdzanieWyniku = () => {
   console.log("sprawdzanie wyniku - start");
   divSprawdz.innerHTML = `<button aria-busy="true">Prosimy poczekać…</button>`;
-
-  alert(`Twój wynik to: ${wynik}`);
   console.log("sprawdzanie wyniku - stop");
 };
 
